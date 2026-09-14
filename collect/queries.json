@@ -1,0 +1,121 @@
+{
+ "_comment": [
+  "News coverage of data centers and local response to them.",
+  "",
+  "Companion to datacenter_yt, which does the same for YouTube comments.",
+  "Both read the same codebook, so their exports carry the same columns and",
+  "can be stacked in a spreadsheet.",
+  "",
+  "Neither GDELT nor Google News needs a key, so there is nothing in",
+  "repository secrets and no quota to share with anything else.",
+  "",
+  "Phrases with spaces must stay in quotes so the engines treat them as",
+  "phrases. subjects are what gets searched; recognize is the wider",
+  "vocabulary used to judge whether a result belongs."
+ ],
+ "states": [
+  "Oklahoma",
+  "Texas",
+  "Kansas",
+  "Arkansas",
+  "Louisiana",
+  "Missouri",
+  "New Mexico",
+  "Colorado"
+ ],
+ "topics": [
+  {
+   "id": "data_center_siting",
+   "label": "Data center siting and local response",
+   "per_state": true,
+   "subjects": [
+    "\"data center\"",
+    "\"data centers\""
+   ],
+   "recognize": [
+    "data center",
+    "data centre",
+    "datacenter",
+    "hyperscale",
+    "server farm",
+    "ai campus",
+    "cloud campus",
+    "colocation"
+   ],
+   "angles": [
+    "moratorium",
+    "opposition",
+    "residents",
+    "zoning",
+    "rezoning",
+    "\"city council\"",
+    "hearing",
+    "\"county commission\"",
+    "water",
+    "ratepayers"
+   ]
+  },
+  {
+   "id": "data_center_policy",
+   "label": "Rates, water and legislation",
+   "per_state": true,
+   "subjects": [
+    "\"data center\" electricity rates",
+    "\"data center\" water use"
+   ],
+   "recognize": [
+    "data center",
+    "ratepayer",
+    "electric rates",
+    "utility bill",
+    "water use",
+    "groundwater",
+    "large load",
+    "tariff"
+   ],
+   "angles": [
+    "legislature",
+    "bill",
+    "commission",
+    "study",
+    "moratorium",
+    "abatement",
+    "incentive",
+    "transparency"
+   ]
+  },
+  {
+   "id": "data_center_tribal",
+   "label": "Tribal jurisdiction",
+   "per_state": false,
+   "subjects": [
+    "tribal \"data center\"",
+    "\"Cherokee Nation\" data center"
+   ],
+   "recognize": [
+    "data center",
+    "tribal",
+    "nation",
+    "reservation",
+    "sovereignty",
+    "jurisdiction"
+   ],
+   "angles": []
+  }
+ ],
+ "_relevance_comment": [
+  "A result is kept when it scores 2 or more: a subject phrase in the",
+  "headline is worth 2, each angle word 1 up to 2, a state or county name 1.",
+  "Everything else is still stored and can be shown, just marked weak."
+ ],
+ "keep_threshold": 2,
+ "_limits_comment": [
+  "GDELT asks for one request every five seconds and caps any single search",
+  "at 250 articles. max_age_days only affects how far back a run reaches;",
+  "articles already collected are never dropped because they aged out."
+ ],
+ "gdelt_pause_seconds": 6,
+ "gdelt_max_records": 250,
+ "max_age_days": 30,
+ "keep_total": 8000
+}
