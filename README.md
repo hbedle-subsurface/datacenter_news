@@ -3,7 +3,7 @@
 A crawler that collects news coverage of datacenter projects meeting local opposition, and a
 page for reading and coding what it finds.
 
-Live at **https://hbedle-subsurface.github.io/datacenter_doc/**
+Live at **https://hbedle-subsurface.github.io/datacenter_news/**
 
 It runs itself every Monday. Nobody has to install anything, register for anything, or
 open a terminal.
