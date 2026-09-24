@@ -1,6 +1,48 @@
 {
  "runs": [
   {
+   "when": "2026-09-24T18:09:27+00:00",
+   "searches": 34,
+   "states": [
+    "Oklahoma",
+    "Texas",
+    "Kansas",
+    "Arkansas",
+    "Louisiana",
+    "Missouri",
+    "New Mexico",
+    "Colorado"
+   ],
+   "days": 30,
+   "results": 2610,
+   "new": 599,
+   "total": 3201,
+   "problems": [
+    "gdelt data_center_siting/Oklahoma — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Texas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Texas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Kansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Arkansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Arkansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Louisiana — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Missouri — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/New Mexico — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Colorado — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_siting/Colorado — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Oklahoma — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Texas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Kansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Kansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Arkansas — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Missouri — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Missouri — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/New Mexico — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/New Mexico — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_policy/Colorado — HTTPError: HTTP Error 429: Too Many Requests",
+    "gdelt data_center_tribal/all — HTTPError: HTTP Error 429: Too Many Requests"
+   ]
+  },
+  {
    "when": "2026-09-17T17:55:06+00:00",
    "searches": 34,
    "states": [
